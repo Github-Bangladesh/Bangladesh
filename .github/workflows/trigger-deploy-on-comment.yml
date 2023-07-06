@@ -18,7 +18,7 @@ jobs:
               core.setFailed("User not authorized to deploy")
             }
       - name: Trigger build
-        uses: benc-uk/workflow-dispatch@v1
+        uses: benc-uk/workflow-dispatch@v121
         with:
           repo: ${{ secrets.GITHUBBANGLADESH_REPO_NWO }}
           workflow: Trigger build when public PR is merged
