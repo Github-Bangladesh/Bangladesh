@@ -8,7 +8,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: User has permission to deploy
-        uses: actions/github-script@v6
+        uses: actions/github-script@v7
         with:
           script: |
             // Check if the user trying to deploy is an authorized user
